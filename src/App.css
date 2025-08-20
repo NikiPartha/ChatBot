@@ -1,0 +1,23 @@
+/* Global font & smooth background transition */
+body {
+  font-family: 'Inter', sans-serif;
+  transition: background 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
